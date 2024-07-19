@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Servicio de Limpieza de Autos</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        h1, h2 {
+            color: #333;
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .gallery img {
+            width: 100%;
+            height: auto;
+            max-width: 300px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .service {
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Servicio de Limpieza de Autos</h1>
+    </header>
+    <div class="container">
+        <h2>Imágenes de Nuestros Servicios</h2>
+        <div class="gallery">
+            <img src="https://example.com/interior1.jpg" alt="Interior del auto">
+            <img src="https://example.com/exterior1.jpg" alt="Exterior del auto">
+            <img src="https://example.com/interior2.jpg" alt="Interior del auto">
+            <img src="https://example.com/exterior2.jpg" alt="Exterior del auto">
+        </div>
+        <h2>Descripción de Nuestros Servicios</h2>
+        <div class="service">
+            <h3>Limpieza Interior</h3>
+            <p>Ofrecemos un servicio de limpieza interior completo, que incluye aspirado, limpieza de tapicería, y tratamiento de superficies para dejar tu auto como nuevo.</p>
+        </div>
+        <div class="service">
+            <h3>Limpieza Exterior</h3>
+            <p>Nuestro servicio de limpieza exterior garantiza un acabado impecable. Incluye lavado, encerado y pulido para mantener la carrocería de tu auto brillante y protegida.</p>
+        </div>
+    </div>
+</body>
+</html>
